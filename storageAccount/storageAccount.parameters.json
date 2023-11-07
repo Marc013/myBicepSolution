@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "metadata": {
+    "template": "./storageAccount.bicep"
+  },
+  "parameters": {
+    "name": {
+      "value": "mystorageaccountmarc013"
+    },
+    "storageAccountKind": {
+      "value": "StorageV2"
+    },
+    "skuName": {
+      "value": "Standard_LRS"
+    },
+    "storageAccountAccessTier": {
+      "value": "Hot"
+    },
+    "tags": {
+      "value": {
+        "ApplicationID": "12345678",
+        "CostCode": "1234567890",
+        "Environment": "Staging",
+        "Owner": "John Doe"
+      }
+    }
+  }
+}

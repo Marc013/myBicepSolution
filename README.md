@@ -1,2 +1,0 @@
-# myBicepSolution
-PSRule testing
